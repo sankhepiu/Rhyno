@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #131313;
+    color: #EDEDED;
+}
+
+header {
+    background-color: #202020;
+    color: #F2F2F2;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #F2F2F2;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #F9ED32;
+}
+
+main {
+    padding: 40px;
+    font-family: 'Calibri', sans-serif;
+}
+
+.hero {
+    text-align: center;
+    color: #F2F2F2;
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.usp-carousel {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.usp-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.usp-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #2C2A2A;
+    color: #F2F2F2;
+}
+
+.usp-item h3 {
+    font-size: 24px;
+    margin-top: 0;
+    color: #F9ED32;
+}
+
+.usp-item p {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #202020;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: #F2F2F2;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #F9ED32;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+/* Existing CSS */
+.hero h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    animation: fadeIn 3s ease-in-out;
+}
+
+/* New CSS for highlighting */
+.highlight {
+    color: #F9ED32; /* Yellow color */
+    font-weight: bold;
+}
